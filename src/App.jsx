@@ -1,12 +1,12 @@
 import Header from "./componet/Header";
 import Searchbar from "./componet/Searchbar";
-import RecipeCard from "./componet/RecipeCard";
+import Recipes from "./componet/Recipes";
 function App() {
   return (
     <div className=" items-center ">
       <Header />
       <Searchbar />
-      <RecipeCard />
+      <Recipes/>
     </div>
   );
 }
