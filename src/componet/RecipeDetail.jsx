@@ -21,7 +21,6 @@ export default function RecipeDetail() {
       <h1>{recipe.name}</h1>
       <p>{recipe.ingredients}</p>
       <p>{recipe.instructions}</p>
-      <p>{id}</p>
     </div>
   );
 }

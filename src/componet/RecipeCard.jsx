@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function RecipeCard({ data }) {
   console.log(data);
 
@@ -15,6 +17,7 @@ export default function RecipeCard({ data }) {
         <p>people who haved reveiwed this meal:{data.reviewCount}</p>
       </div>
        <p className="border w-fit px-2 py-0.5 bg-red-400 mx-[86%]">{data.rating}</p>
+       <Link to={`/${data.id}`} >more</Link>
     </div>
   );
 }
