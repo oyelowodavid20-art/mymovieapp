@@ -22,6 +22,6 @@ export default function Recipes() {
       {allRecipes.map((item) => (
         <RecipeCard data={item} key={item.id}/>
       ))}
-    </div>
-  );
+ </div>
+ );
 }
